@@ -1,0 +1,31 @@
+div {
+  background-color: #00d1ae;
+  width: 170px;
+  padding: 10px 5px;
+  margin: 10px;
+}
+
+/* BORDA */
+div {
+  /*
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+  */
+  border: 2px solid #17212e;
+  /*
+  border-width: 4px 1px 2px 4px;
+  border-color: red blue green yellow;
+  border-style: solid dashed dotted double;
+  */
+  border-radius: 12px;
+  /* overflow: hidden; */
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 5px;
+}
